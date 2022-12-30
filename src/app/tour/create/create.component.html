@@ -16,19 +16,19 @@
 <div class="container" style="width: 500px">
 <br>
 <br>
-  <h2>Create <b>Tour</b></h2>
+  <h2>Thêm <b>Tour</b></h2>
 <form style="width: 500px" [formGroup]="createForm" (ngSubmit)="create()">
   <div class="form-group">
-    <label >Title</label>
-    <input  class="form-control"  placeholder="Enter Title" formControlName="title">
+    <label >Tên tour</label>
+    <input  class="form-control"  placeholder="Nhập tên" formControlName="title">
   </div>
   <div class="form-group">
-    <label >Price</label>
-    <input  class="form-control"  placeholder="Enter Price" formControlName="price">
+    <label >Giá</label>
+    <input  class="form-control"  placeholder="Nhập giá" formControlName="price">
   </div>
   <div class="form-group">
-    <label >Description</label>
-    <textarea style="height: 200px"   class="form-control"  placeholder="Enter description" formControlName="description"></textarea>
+    <label >Mô tả</label>
+    <textarea style="height: 200px"   class="form-control"  placeholder="Nhập mô tả" formControlName="description"></textarea>
   </div>
 
   <button type="submit" class="btn btn-primary" style="margin-right: 10px">Create</button>
